@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cstdio>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    // Complete the code.
+    int a;
+    long b;
+    char c;
+    float f;
+    double d;
+    cin>>a>>b>>c>>f>>d;
+    cout<<a<<endl<<b<<endl<<c<<endl;
+    cout<<fixed<< setprecision(3)<< f<<endl;
+    cout<<fixed<<setprecision(9)<<d;
+    return 0;
+}
