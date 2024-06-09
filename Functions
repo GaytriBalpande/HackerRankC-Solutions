@@ -1,0 +1,12 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+    int a,b,c,d,e,f,g;
+    cin>>a>>b>>c>>d;
+    e=max(a,b);
+    f=max(c,d);
+    g=max(e,f);
+    cout<<g;
+    return 0;
+}
